@@ -1,6 +1,6 @@
 # 시맨틱 세그멘테이션 — FCN & U-Net / Semantic Segmentation
 
-> **English summary.** Pixel-level image segmentation in PyTorch: a **Fully Convolutional Network (FCN)** that replaces dense layers with convolutions and upsampling to produce dense per-pixel predictions, and a **U-Net** for multi-class segmentation with its encoder–decoder + skip-connection architecture (image/mask pairs, FCN8s-style decoding). Practice materials from the NVIDIA AI Academy Seoul program.
+> **English summary.** Pixel-level image segmentation in PyTorch: a **Fully Convolutional Network (FCN)** that replaces dense layers with convolutions and upsampling to produce dense per-pixel predictions, and a **U-Net** for multi-class segmentation with its encoder–decoder + skip-connection architecture (image/mask pairs, FCN8s-style decoding).
 
 ![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)
