@@ -25,6 +25,17 @@
 - **U-Net**: 인코더-디코더 대칭 구조 + skip-connection으로 세밀한 경계 복원
 - 데이터: 이미지–마스크 쌍 처리, 다중 클래스 마스크 시각화, 세그멘테이션 지표
 
+## 결과 시각화
+
+노트북의 실제 출력입니다 — 원본 이미지, 정답 마스크(Ground Truth), 예측 마스크(Predicted).
+
+| | |
+|:---:|:---:|
+| ![](results/fig_01.png) | ![](results/fig_02.png) |
+| ![](results/fig_03.png) | ![](results/fig_04.png) |
+
+FCN·U-Net이 이미지를 픽셀 단위로 분할해 객체 영역을 마스크로 예측합니다.
+
 ## 실행 방법
 
 ```bash
